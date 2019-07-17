@@ -11,6 +11,10 @@ def hello():
 def world():
     return 'World Hello'
 
+@application.route('/getme')
+def getme:
+    return 'getme'
+
 
 if __name__ == "__main__":
     application.run()
