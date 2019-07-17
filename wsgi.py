@@ -12,7 +12,7 @@ def world():
     return 'World Hello'
 
 @application.route('/getme')
-def getme:
+def getme():
     return 'getme'
 
 
